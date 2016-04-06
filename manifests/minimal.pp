@@ -16,7 +16,7 @@ class cygwin_common::minimal{
         path => ["$sysroot", "$sys32", "${choco_bin}", "${choco_cyg_get_tools}", ],
         provider => powershell,
         cwd => "${choco_cyg_get_tools}",
-        command => 'cyg-get.ps1 vim,screen,git,openssh',
+        command => 'cyg-get.ps1 vim,screen,git,openssh,wget',
       }
     }
   } else {
