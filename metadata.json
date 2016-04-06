@@ -9,7 +9,9 @@
   "issues_url": "https://github.com/st01tkh/puppet-cygwin_common/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"puppetlabs-powershell","version_requirement":">= 1.0.0"},
     {"name":"tkh-puppet_chocolatey","version_requirement":">= 0.0.1"}
+
   ]
 }
 
