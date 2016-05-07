@@ -26,7 +26,7 @@ class cygwin_common {
     package { 'cyg-get': ensure => installed, } ->
     class {'cygwin_common::path' : } ->
     class {'cygwin_common::vendor' : } ->
-    class {'cygwin_common::minimal' : }
+    class {'cygwin_common::minimal_aptcyg' : }
   } else {
       notify {"$operatingsystem is not supported": }
   }
